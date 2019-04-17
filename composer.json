@@ -1,0 +1,30 @@
+{
+    "name": "ara/comment",
+    "type": "library",
+    "description": "Comment module for Anax framework.",
+    "keywords": ["boilerplate", "framework", "mvc", "micro", "education"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ara Nourbakhsh",
+            "email": "ara.nourbakhsh@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ara\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "anax/request": "^1.0",
+        "anax/response": "^1.0",
+        "anax/view": "^1.0",
+        "anax/session": "^1.0",
+        "anax/textfilter": "^1.0",
+        "anax/di": "^1.0",
+        "lrc-se/anax-repository": "^1.1",
+        "anax/database": "^1.1"
+    }
+}
