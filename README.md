@@ -18,23 +18,7 @@ Anax comment module.
 Requirements
 ------------------
 
-In order to use this module you need an Anax framework environment.
-
-```
-git clone https://github.com/Ara95/anax.git -b comment-test
-cd anax
-composer install
-```
-
-For the project to work the database also needs to be setup:
-
-```
-mv config/database_default.php config/database.php
-```
-
-Then change dsn, username and password within `database.php` to match your environment.
-
-A User table also needs to be added to the database manually, `sql/ddl/user_mysql_default.sql` contains the necessary DDL for that.
+In order to use this module you need an Anax framework environment and database setup.
 
 
 Installation
@@ -57,16 +41,7 @@ make install-module module=ara/comment
 ```
 The setup adds example pages and views that can be reached in the browser via the path `/comment`.
 
-Finally, a Comment table needs to be manually added to the database, `sql/ddl/comment_mysql_default.sql` contains the necessary DDL for that.
-
-The comment functionality can now be demoed under `/comment/1` and `/comment/2`.
-
-
-Usage
-------------------
-
-Short examples on how to use the module comment.
-
+The comment functionality can now be showed under `/comment/1` and `/comment/2`.
 
 
 License
